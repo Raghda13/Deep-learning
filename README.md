@@ -11,5 +11,18 @@ cd advanced_transformers.py
 python transformer_stock_prediction.py
 
 
+2)his project explores how deep learning models are trained under the hood using TensorFlow.
+Instead of relying only on model.fit(), I implemented a custom training loop that manually controls:
+
+The forward pass
+
+Loss computation
+
+Gradient calculation using tf.GradientTape()
+
+Weight updates via the optimizer
+
+
+
 
  
