@@ -15,13 +15,57 @@ python transformer_stock_prediction.py
 Instead of relying only on model.fit(), I implemented a custom training loop that manually controls:
 
 The forward pass
-
 Loss computation
-
 Gradient calculation using tf.GradientTape()
-
 Weight updates via the optimizer
 
+3)final_project2
+EcoClean: Automated Waste Classification
+Project Overview
+
+EcoClean currently lacks an efficient and scalable method to automate the waste sorting process. Manual sorting of waste is labor-intensive and prone to errors, leading to contamination of recyclable materials. This project leverages machine learning and computer vision to automate the classification of waste products, improving efficiency and reducing contamination rates.
+
+The project uses transfer learning with a pre-trained VGG16 model to classify images of waste as either recyclable or organic.
+
+#Aim of the Project
+
+The aim of this project is to develop an automated waste classification model that can accurately differentiate between recyclable and organic waste based on images. By the end of this project, you will have:
+
+Trained and fine-tuned a model using transfer learning
+
+Evaluated the model’s performance
+
+Produced a trained model ready for real-world waste management applications
+
+Final Output: A trained model that classifies waste images into recyclable and organic categories.
+
+#Dataset
+
+The dataset contains images of recyclable (R) and organic (O) waste, split into training and testing directories. It is automatically downloaded and extracted by the provided script:
+
+url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/kd6057VPpABQ2FqCbgu9YQ/o-vs-r-split-reduced-1200.zip"
+file_name = "o-vs-r-split-reduced-1200.zip"
+
+How to Run the Project
+
+Clone the repository or download the files.
+
+Install dependencies (e.g., using pip):
+
+pip install tensorflow matplotlib scikit-learn tqdm requests
+
+
+#Run the script to:
+
+Download and extract the dataset
+Train the model (feature extraction and fine-tuning)
+Save the trained models (O_R_tlearn_vgg16.keras and O_R_tlearn_fine_tune_vgg16.keras)
+Evaluate the models on the test set
+Plot loss, accuracy, and sample predictions
+Inspect the outputs:
+Training and validation loss/accuracy plots
+Classification reports
+Example predictions with actual and predicted labels
 
 
 
