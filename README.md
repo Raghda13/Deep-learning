@@ -1,4 +1,4 @@
-#final_project2
+# Project2
 EcoClean: Automated Waste Classification
 
 #Project Overview
