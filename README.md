@@ -53,8 +53,7 @@ NumPy
 
 #Setup
 
-Clone the repository:
-git clone https://github.com/your-username/autoencoder-mnist.git
+Clone the repository
 cd autoencoder-mnist
 Run the notebook in Google Colab or Jupyter Notebook:
 jupyter notebook Autoencoders.ipynb
@@ -117,7 +116,6 @@ Uses a simple model trained on synthetic binary data to show a typical workflow.
 #Setup
 
 1)Clone this repository:
-2)git clone https://github.com/your-username/custom-training-loop-keras.git
 3)cd custom-training-loop-keras
 4)Run the notebook in Google Colab or Jupyter Notebook:
 5)jupyter notebook "custom training loop in keras.ipynb"
