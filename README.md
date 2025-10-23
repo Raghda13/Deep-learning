@@ -47,8 +47,8 @@ Training: Uses the binary crossentropy loss function and Adam optimizer.
 
 # Requirements
 
-Python 3.x
-TensorFlow 2.x
+Python 
+TensorFlow 
 NumPy
 
 # Setup
@@ -116,6 +116,6 @@ Uses a simple model trained on synthetic binary data to show a typical workflow.
 # Setup
 
 1)Clone this repository:
-3)cd custom-training-loop-keras
-4)Run the notebook in Google Colab or Jupyter Notebook:
-5)jupyter notebook "custom training loop in keras.ipynb"
+2)cd custom-training-loop-keras
+3)Run the notebook in Google Colab or Jupyter Notebook:
+4)jupyter notebook "custom training loop in keras.ipynb"
