@@ -1,7 +1,7 @@
 #final_project2
 EcoClean: Automated Waste Classification
-#Project Overview
 
+#Project Overview
 EcoClean currently lacks an efficient and scalable method to automate the waste sorting process. Manual sorting of waste is labor-intensive and prone to errors, leading to contamination of recyclable materials. This project leverages machine learning and computer vision to automate the classification of waste products, improving efficiency and reducing contamination rates.
 
 The project uses transfer learning with a pre-trained VGG16 model to classify images of waste as either recyclable or organic.
@@ -79,8 +79,8 @@ The model is trained using mean squared error (MSE) to predict future stock pric
 
 #Requirements
 
-Python 3.x
-TensorFlow 2.x
+Python 
+TensorFlow 
 NumPy
 Pandas
 scikit-learn
