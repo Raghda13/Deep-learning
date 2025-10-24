@@ -34,6 +34,41 @@ Pretrained BLIP (Bootstrapped Language-Image Pretraining) model
 5) Run the BLIP section to generate captions and summaries for sample images.
 
 
+# Project 2
+EcoClean: Automated Waste Classification using VGG16
+# Project Overview
+EcoClean currently lacks an efficient and scalable method to automate the waste sorting process. Manual sorting of waste is labor-intensive and error-prone, often leading to contamination of recyclable materials.
+
+This project leverages deep learning and computer vision to automate waste classification — distinguishing between organic (O) and recyclable (R) waste using transfer learning with a pre-trained VGG16 model.
+
+# Aim of the Project
+The aim of this project is to develop an automated image classification model capable of accurately differentiating recyclable and organic waste
+
+# Dataset
+The dataset used is publicly available and can be accessed here:
+📂 O vs R Dataset (Recyclable vs Organic Waste)
+
+It contains two classes:
+O → Organic Waste
+R → Recyclable Waste
+
+# Technologies Used
+
+TensorFlow / Keras
+VGG16 (Transfer Learning)
+NumPy, Matplotlib
+scikit-learn (for metrics)
+Google Colab
+
+# How to Run 
+1)Open the notebook in Google Colab.
+2)Final Project Notebook
+3)Run all cells sequentially — the dataset will be downloaded and extracted automatically.
+
+The model will train, evaluate, and generate plots and reports.
+
+
+
 # Author
 Raghda Elsakka
 Machine Learning Engineer
