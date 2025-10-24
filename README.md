@@ -25,6 +25,28 @@ NumPy
 4)Compare manual vs automatic training behaviors.
 
 
+# Autoencoders with Keras and TensorFlow
+# Overview
+This project demonstrates how to build and train an Autoencoder using TensorFlow Keras on the MNIST dataset.
+An autoencoder is a type of unsupervised neural network that learns to compress input data into a smaller latent representation
+(encoding) and then reconstruct it (decoding) as closely as possible.
+This helps the model learn important features of the data — useful for tasks like dimensionality reduction, noise removal, or anomaly detection.
+
+# Environment Setup
+pip install tensorflow numpy
+
+# Dataset: MNIST Handwritten Digits :https://www.tensorflow.org/datasets/catalog/mnist
+
+Description: A collection of 70,000 grayscale images of handwritten digits (0–9).
+Image size: 28×28 pixels
+Train/Test split: 60,000 training and 10,000 testing images
+
+# Requirements
+TensorFlow
+NumPy
+
+
+
 
 
 
