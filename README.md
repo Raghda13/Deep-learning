@@ -1,4 +1,4 @@
-#final_project2
+# Project2
 EcoClean: Automated Waste Classification
 
 #Project Overview
@@ -6,7 +6,7 @@ EcoClean currently lacks an efficient and scalable method to automate the waste 
 
 The project uses transfer learning with a pre-trained VGG16 model to classify images of waste as either recyclable or organic.
 
-#Aim of the Project
+# Aim of the Project
 
 The aim of this project is to develop an automated waste classification model that can accurately differentiate between recyclable and organic waste based on images. By the end of this project, you will have:
 
@@ -14,7 +14,7 @@ _Trained and fine-tuned a model using transfer learning
 _Evaluated the model’s performance
 _Produced a trained model ready for real-world waste management applications
 
-_ #How to Run the Project
+_ # How to Run the Project
 1)Clone the repository or download the files.
 2)Install dependencies" e.g., using pip"
  pip install tensorflow matplotlib scikit-learn tqdm requests
@@ -25,8 +25,8 @@ Save the trained models (O_R_tlearn_vgg16.keras and O_R_tlearn_fine_tune_vgg16.k
 Evaluate the models on the test set
 Plot loss, accuracy, and sample predictions
 
-#Technologies Used
-Python 3.x
+# Technologies Used
+Python 
 TensorFlow / Keras
 NumPy
 Matplotlib
@@ -38,20 +38,20 @@ scikit-learn
 This repository contains a simple implementation of an autoencoder using TensorFlow/Keras to compress and reconstruct images from the MNIST dataset.
 Autoencoders are neural networks that learn to compress input data into a smaller representation (encoding) and then reconstruct the original data from this representation (decoding). This project demonstrates a basic fully connected autoencoder.
 
-#Overview
+# Overview
 
 The autoencoder in this project consists of:
 Encoder: Compresses the 784-dimensional MNIST images into a 32-dimensional bottleneck representation.
 Decoder: Reconstructs the original image from the bottleneck.
 Training: Uses the binary crossentropy loss function and Adam optimizer.
 
-#Requirements
+# Requirements
 
-Python 3.x
-TensorFlow 2.x
+Python 
+TensorFlow 
 NumPy
 
-#Setup
+# Setup
 
 Clone the repository
 cd autoencoder-mnist
@@ -77,7 +77,7 @@ Flattening encoder outputs
 Dense layer for regression output
 The model is trained using mean squared error (MSE) to predict future stock prices.
 
-#Requirements
+# Requirements
 
 Python 
 TensorFlow 
@@ -86,7 +86,7 @@ Pandas
 scikit-learn
 Matplotlib
 
-#Setup
+# Setup
 Clone the repository:
 git clone https://github.com/your-username/transformer-stock-prediction.git
 cd transformer-stock-prediction
@@ -98,7 +98,7 @@ jupyter notebook Advanced\ Transformers.ipynb
 This project demonstrates how to build and train deep learning models using custom training loops in TensorFlow/Keras, giving full control over the forward and backward passes, gradient updates, and logging.
 
 The notebook also includes a simple binary classification example using the standard .fit() API for comparison.
-#Overview
+# Overview
 
 This project covers two main parts:
  Part 1: Custom Training Loop on MNIST
@@ -113,9 +113,9 @@ Custom callback for logging after each epoch
 Demonstrates a traditional Keras training setup using .compile() and .fit().
 Uses a simple model trained on synthetic binary data to show a typical workflow.
 
-#Setup
+# Setup
 
 1)Clone this repository:
-3)cd custom-training-loop-keras
-4)Run the notebook in Google Colab or Jupyter Notebook:
-5)jupyter notebook "custom training loop in keras.ipynb"
+2)cd custom-training-loop-keras
+3)Run the notebook in Google Colab or Jupyter Notebook:
+4)jupyter notebook "custom training loop in keras.ipynb"
