@@ -119,3 +119,43 @@ Uses a simple model trained on synthetic binary data to show a typical workflow.
 2)cd custom-training-loop-keras
 3)Run the notebook in Google Colab or Jupyter Notebook:
 4)jupyter notebook "custom training loop in keras.ipynb"
+
+#Aircraft Damage Classification and Captioning Using Pretrained Models (Project 1)
+
+ # Project Overview
+ This project aims to automate aircraft damage detection and reporting using state-of-the-art deep learning models.
+By combining computer vision and natural language processing (NLP) techniques, the system can:
+Classify aircraft images into two damage categories: "dent" and "crack", using a pretrained VGG16 model.
+Generate captions and summaries that describe the detected damage using a Transformer-based BLIP model.
+
+# Technologies Used
+Deep Learning	 (TensorFlow, Keras, PyTorch)
+Pretrained Models	 (VGG16, Salesforce BLIP)
+NLP & Transformers	Hugging Face Transformers
+Data Handling (NumPy, Pandas, PIL, urllib, tarfile)
+Visualization	 (Matplotlib)
+Environment 	(Python 3.x, Jupyter/Colab)
+
+# Dataset
+The dataset used is the Aircraft Damage Dataset v1, provided by a Roboflow user under CC BY 4.0 license.
+It includes labeled images of aircraft damages categorized as:
+Dent
+Crac
+Source: https://storage.googleapis.com/tensorflow/keras-applications/vgg16/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+
+# How to Run the Project
+_Clone this repository or open the notebook in Google Colab.
+_Ensure the following libraries are installed (pip install tensorflow keras torch transformers matplotlib pillow)
+_Run all cells in sequence — dataset will be downloaded automatically._
+_View classification metrics, generated captions, and summaries.
+
+# Author
+Raghda Elsakka
+Machine Learning & Deep Learning Enthusiast
+LinkedIn:https://www.linkedin.com/in/raghda-elsakka-463541202/
+ 
+
+
+
+
